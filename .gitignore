@@ -1,0 +1,29 @@
+# 数据、大文件（原始/中间/结果数据不提交；只提交文档、代码、小型测试样例）
+data/raw/
+data/staging/
+data/curated/
+data/results/
+data/*.csv
+data/*.xlsx
+data/*.parquet
+data/*.jsonl
+data/*.pkl
+data/*.feather
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.token
+
+# 模型与缓存
+*.ckpt
+*.safetensors
+.cache/
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
