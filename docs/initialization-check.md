@@ -2,6 +2,7 @@
 
 > 记录一次最小闭环（真实公开招股书样例）的预期、实际结果与剩余问题。
 > 状态：**已执行**（2026-10-03，两条真实来源，5 条记录，Pydantic 校验全通过）。
+> 后续扩展：dry-run 5 条已扩充为 **16 条真实估值观测**（8 家国内公司），见 [samples/valuation_sample_cn.jsonl](../samples/valuation_sample_cn.jsonl) 与 [docs/data-coverage-survey.md](data-coverage-survey.md)；本文件仍保留 5 条最小闭环记录。
 
 ## 目标
 
