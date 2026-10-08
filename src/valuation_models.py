@@ -25,6 +25,7 @@ class Currency(str, Enum):
 
 class Country(str, Enum):
     CN = "CN"
+    HK = "HK"  # 港股上市（中国公司，境外架构），仍属「中国侧」比较口径
     US = "US"
 
 
@@ -79,8 +80,8 @@ class ValuationEvent(BaseModel):
 
     # ── 企业标识 ──
     company_name: str = Field(..., min_length=1, description="公司全称")
-    stock_code: str = Field(..., min_length=1, description="股票代码（6位，A股）；未上市可用代码0占位并标注")
-    country: Country = Field(..., description="国别（CN/US；本阶段先做 CN）")
+    stock_code: str = Field(..., min_length=1, description="股票代码（A股6位 / 港股4位）；未上市可用代码0占位并标注")
+    country: Country = Field(..., description="国别/上市地（CN=A股 / HK=港股 / US=美股；港股仍属中国侧比较口径）")
 
     # ── 事件与轮次 ──
     round_label: Optional[str] = Field(None, description="轮次/事件标签（如 C轮、第四次股权激励、A轮增资）")
