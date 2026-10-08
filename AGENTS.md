@@ -6,7 +6,7 @@
 
 - 项目：中国企业与美国企业估值比较
 - Project ID：**待确认**（缺失时停在只读检查，向 Project Lead 询问，不得猜测）
-- Project Lead：赵秉清；成员：杨苗鑫
+- Project Lead：赵秉清；成员：杨苗鑫（质量/交叉检验、人工金标准，见 meetings/2026-10-08）
 - 仓库：https://github.com/tdj49vhhwv-wq/valuation（暂用个人仓；正式 suibe-flab/valuation 待建/待授权，见 DEC-005）
 - 本文件适用于仓库根目录及 docs/、data/、src/、scripts/、tests/
 - 权威口径：研究见 [docs/research-scope.md](docs/research-scope.md)，数据见 [docs/data-management.md](docs/data-management.md)，运行见 [docs/runtime-and-runbook.md](docs/runtime-and-runbook.md)，决策见 [docs/decisions.md](docs/decisions.md)
