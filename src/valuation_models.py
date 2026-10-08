@@ -50,6 +50,28 @@ class DataSource(str, Enum):
     INFERRED = "inferred"
 
 
+class EventType(str, Enum):
+    """估值事件类型：融资增资 / 股权激励 / 老股转让 / 股改评估 / 回购条款 / 其他。"""
+    FINANCING = "financing"                            # 融资增资（外部投资人）
+    EQUITY_INCENTIVE = "equity_incentive"              # 股权激励 / 员工持股
+    SHARE_TRANSFER = "share_transfer"                  # 老股转让 / 股权转让定价基础
+    RESTRUCTURING_APPRAISAL = "restructuring_appraisal"  # 股改整体变更净资产评估
+    REPURCHASE_CLAUSE = "repurchase_clause"            # 回购条款目标估值（非成交）
+    OTHER = "other"
+
+
+class StageLabel(str, Enum):
+    """融资阶段标签：只在融资事件（financing）上打，非融资事件标 n_a。"""
+    SEED = "seed"
+    ANGEL = "angel"
+    SERIES_A = "series_a"
+    SERIES_B = "series_b"
+    SERIES_C = "series_c"      # 含 C 轮及以后（CII 等）
+    PRE_IPO = "pre_ipo"
+    LISTED = "listed"
+    N_A = "n_a"
+
+
 class ValuationEvent(BaseModel):
     """一次估值观测：某企业某时点的估值是多少、什么口径、依据是什么。"""
 
@@ -62,6 +84,8 @@ class ValuationEvent(BaseModel):
 
     # ── 事件与轮次 ──
     round_label: Optional[str] = Field(None, description="轮次/事件标签（如 C轮、第四次股权激励、A轮增资）")
+    event_type: Optional[EventType] = Field(None, description="事件类型（融资/激励/转让/股改评估/回购条款），用于可比匹配")
+    stage_label: Optional[StageLabel] = Field(None, description="融资阶段标签，仅融资事件（financing）打；非融资事件标 n_a")
     event_date: str = Field(..., min_length=7, description="估值/交易日期（YYYY-MM-DD 或 YYYY-MM）")
 
     # ── 估值核心字段 ──

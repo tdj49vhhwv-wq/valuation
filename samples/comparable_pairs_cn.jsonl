@@ -1,0 +1,25 @@
+{"company_a": "688727", "company_b": "688783", "shared_sector": "半导体", "shared_subsector": true, "stage_overlap": false, "stage_detail": "恒坤新材:['未标轮次'] vs 西安奕材:['series_c']", "confidence": "强候选"}
+{"company_a": "688757", "company_b": "301581", "shared_sector": "半导体", "shared_subsector": true, "stage_overlap": false, "stage_detail": "胜科纳米:['series_c'] vs 黄山谷捷:['未标轮次']", "confidence": "强候选"}
+{"company_a": "688795", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": true, "stage_overlap": false, "stage_detail": "摩尔线程:['pre_ipo'] vs 沐曦股份:['未标轮次']", "confidence": "强候选"}
+{"company_a": "688757", "company_b": "688783", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": true, "stage_detail": "胜科纳米:['series_c'] vs 西安奕材:['series_c']", "confidence": "候选"}
+{"company_a": "301581", "company_b": "688727", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "黄山谷捷:['未标轮次'] vs 恒坤新材:['未标轮次']", "confidence": "候选"}
+{"company_a": "301581", "company_b": "688729", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "黄山谷捷:['未标轮次'] vs 屹唐股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "301581", "company_b": "688783", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "黄山谷捷:['未标轮次'] vs 西安奕材:['series_c']", "confidence": "候选"}
+{"company_a": "301581", "company_b": "688795", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "黄山谷捷:['未标轮次'] vs 摩尔线程:['pre_ipo']", "confidence": "候选"}
+{"company_a": "301581", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "黄山谷捷:['未标轮次'] vs 沐曦股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "688727", "company_b": "688795", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "恒坤新材:['未标轮次'] vs 摩尔线程:['pre_ipo']", "confidence": "候选"}
+{"company_a": "688727", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "恒坤新材:['未标轮次'] vs 沐曦股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "688729", "company_b": "688727", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "屹唐股份:['未标轮次'] vs 恒坤新材:['未标轮次']", "confidence": "候选"}
+{"company_a": "688729", "company_b": "688783", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "屹唐股份:['未标轮次'] vs 西安奕材:['series_c']", "confidence": "候选"}
+{"company_a": "688729", "company_b": "688795", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "屹唐股份:['未标轮次'] vs 摩尔线程:['pre_ipo']", "confidence": "候选"}
+{"company_a": "688729", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "屹唐股份:['未标轮次'] vs 沐曦股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "688757", "company_b": "688727", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "胜科纳米:['series_c'] vs 恒坤新材:['未标轮次']", "confidence": "候选"}
+{"company_a": "688757", "company_b": "688729", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "胜科纳米:['series_c'] vs 屹唐股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "688757", "company_b": "688795", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "胜科纳米:['series_c'] vs 摩尔线程:['pre_ipo']", "confidence": "候选"}
+{"company_a": "688757", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "胜科纳米:['series_c'] vs 沐曦股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "688783", "company_b": "688795", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "西安奕材:['series_c'] vs 摩尔线程:['pre_ipo']", "confidence": "候选"}
+{"company_a": "688783", "company_b": "688802", "shared_sector": "半导体", "shared_subsector": false, "stage_overlap": false, "stage_detail": "西安奕材:['series_c'] vs 沐曦股份:['未标轮次']", "confidence": "候选"}
+{"company_a": "603418", "company_b": "920100", "shared_sector": "汽车零部件", "shared_subsector": false, "stage_overlap": false, "stage_detail": "友升股份:['series_a', 'series_b'] vs 三协电机:['pre_ipo']", "confidence": "候选"}
+{"company_a": "688759", "company_b": "688758", "shared_sector": "生物医药", "shared_subsector": false, "stage_overlap": false, "stage_detail": "必贝特:['未标轮次'] vs 赛分科技:['未标轮次']", "confidence": "候选"}
+{"company_a": "688765", "company_b": "688758", "shared_sector": "生物医药", "shared_subsector": false, "stage_overlap": false, "stage_detail": "禾元生物:['未标轮次'] vs 赛分科技:['未标轮次']", "confidence": "候选"}
+{"company_a": "688765", "company_b": "688759", "shared_sector": "生物医药", "shared_subsector": false, "stage_overlap": false, "stage_detail": "禾元生物:['未标轮次'] vs 必贝特:['未标轮次']", "confidence": "候选"}
