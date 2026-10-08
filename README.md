@@ -28,7 +28,7 @@
 
 ## 当前最小交付物
 
-**10 月 10 日前**提交「可评审初始化包」：README、AGENTS.md 及 docs/ 下 6 个文件，经工作分支 + PR 交付，PR 关联 FLAB Issue（Issue 待建）。
+**10 月 10 日前**提交「可评审初始化包」：README、AGENTS.md 及 docs/ 下 6 个文件，经工作分支 + PR 交付，PR 关联 FLAB Issue **#1「项目初始化」**。
 
 ## 文档与数据入口
 
