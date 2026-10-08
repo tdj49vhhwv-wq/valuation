@@ -10,7 +10,7 @@
 | Project ID | `9912c8da-9329-49d1-a20b-65a7e8c6013f`（FLAB 项目 URL 中 projects/ 后的一段） |
 | Project Lead | 赵秉清 |
 | 成员与角色 | 杨苗鑫（质量/交叉检验、人工金标准；分工见 [docs/meetings/2026-10-08.md](docs/meetings/2026-10-08.md)） |
-| 代码仓库 | https://github.com/tdj49vhhwv-wq/valuation（暂用个人仓；指南正式仓库 suibe-flab/valuation 待建/待授权，见 DEC-005） |
+| 代码仓库 | https://github.com/suibe-flab/valuation（正式仓）；个人 https://github.com/tdj49vhhwv-wq/valuation 作备份（见 DEC-007） |
 | 默认分支 | main（初始化经工作分支 + PR 合并） |
 | 推荐 Runtime | **待确认**（本地 / 腾讯云，见 [docs/runtime-and-runbook.md](docs/runtime-and-runbook.md)） |
 | 当前阶段 | **问题定义 + 文档初始化**（未进入批量数据工作；导师决定**先做国内**，见 DEC-004） |

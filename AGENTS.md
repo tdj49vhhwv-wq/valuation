@@ -7,7 +7,7 @@
 - 项目：中国企业与美国企业估值比较
 - Project ID：`9912c8da-9329-49d1-a20b-65a7e8c6013f`（FLAB 项目 URL 中 projects/ 后的一段）
 - Project Lead：赵秉清；成员：杨苗鑫（质量/交叉检验、人工金标准，见 meetings/2026-10-08）
-- 仓库：https://github.com/tdj49vhhwv-wq/valuation（暂用个人仓；正式 suibe-flab/valuation 待建/待授权，见 DEC-005）
+- 仓库：https://github.com/suibe-flab/valuation（正式仓，remote 名 `suibe-flab`）；个人 https://github.com/tdj49vhhwv-wq/valuation 作备份（origin，见 DEC-007）
 - 本文件适用于仓库根目录及 docs/、data/、src/、scripts/、tests/
 - 权威口径：研究见 [docs/research-scope.md](docs/research-scope.md)，数据见 [docs/data-management.md](docs/data-management.md)，运行见 [docs/runtime-and-runbook.md](docs/runtime-and-runbook.md)，决策见 [docs/decisions.md](docs/decisions.md)
 
@@ -35,6 +35,7 @@
 - **必须**：原始数据只读保存，不覆盖原路径。
 - **必须**：候选匹配 / 候选估值标记为「候选」，不写成已确认事实。
 - **必须**：估值显式区分投前 / 投后、币种、单位、时间口径（见 scope 3.2）。
+- **必须**：代码 / 文档改动在工作分支进行，Pull Request 关联当前 FLAB Issue，由 Project Lead 审核后合并。
 - **应该**：新数据修订创建新版本，并更新 Manifest / Schema / Quality 记录。
 - **可以**：先用公开样例或明确标注的合成样例做 dry-run。
 - **禁止**：把 LLM 输出 / 常识当作未复核事实；提交 Token、密码、连接串、个人敏感信息；批量下载未经许可数据；读取其他项目数据。
@@ -53,4 +54,5 @@
 
 ## 8. 本次更新
 
-首次创建（2026-10-03）。后续会议仅在改变 Agent 行为时更新，判断与提案格式见 docs/meetings/。
+- 首次创建（2026-10-03）。
+- 2026-10-08：仓库更正为正式仓 suibe-flab/valuation、个人仓作备份（DEC-007）；新增工作规则「改动走工作分支 + PR 关联 FLAB Issue，由 Project Lead 审核」；Project ID、成员分工落地。判断与提案格式见 docs/meetings/。

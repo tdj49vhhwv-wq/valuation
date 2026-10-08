@@ -54,15 +54,25 @@
 - 负责人：赵秉清
 - 何时重新检查：初始化会确认可比企业最低条件后。
 
-## DEC-005 仓库暂用个人 tdj49vhhwv-wq/valuation
+## DEC-005 仓库暂用个人 tdj49vhhwv-wq/valuation（已废弃）
 
 - 日期：2026-10-03
-- 状态：已采用
-- 决策：初始化阶段仓库暂用个人账号 `tdj49vhhwv-wq/valuation`；指南正式仓库 `suibe-flab/valuation` 尚未建立/未授权，待确认后再迁移或加第二 remote。
-- 选择理由：suibe-flab 组织下 valuation 仓库当前不可见，个人账号可立即提交；后续按指南补齐分支+PR 流程。
+- 状态：已废弃（被 DEC-007 取代）
+- 决策：初始化阶段仓库暂用个人账号 `tdj49vhhwv-wq/valuation`；指南正式仓库 `suibe-flab/valuation` 当时尚未建立/未授权。
+- 选择理由：suibe-flab 组织下 valuation 仓库当时不可见，个人账号可立即提交。
 - 影响的文件：README.md、AGENTS.md（仓库地址）。
 - 负责人：赵秉清
-- 何时重新检查：获得 suibe-flab/valuation 权限后。
+- 变更说明：2026-10-08 获得 suibe-flab 权限，正式仓已建并迁移，见 DEC-007。
+
+## DEC-007 仓库迁移：suibe-flab/valuation 为正式仓
+
+- 日期：2026-10-08
+- 状态：已采用
+- 决策：正式仓定为 `suibe-flab/valuation`（本地 remote 名 `suibe-flab`），个人 `tdj49vhhwv-wq/valuation` 降为备份（origin）。交付走工作分支 + PR 关联 FLAB Issue，由 Project Lead 审核。
+- 选择理由：2026-10-08 获 suibe-flab 权限，四仓库（pevc/valuation/open-source/podcast）均已建；按指南要求代码/文档改动必须走工作分支 + PR。
+- 影响的文件：README.md、AGENTS.md（仓库地址与工作规则）。
+- 负责人：赵秉清
+- 何时重新检查：PR 流程跑通后（gh CLI 未登录，建 PR 需网页操作）。
 
 ## 待决事项（影响后续工作，尚未决定）
 
