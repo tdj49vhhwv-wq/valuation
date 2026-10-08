@@ -7,7 +7,7 @@
 | 项 | 内容 |
 | --- | --- |
 | 项目名称 | 中国企业与美国企业估值比较 |
-| Project ID | **待确认**（FLAB 正式 Project ID，勿以项目名代替） |
+| Project ID | `9912c8da-9329-49d1-a20b-65a7e8c6013f`（FLAB 项目 URL 中 projects/ 后的一段） |
 | Project Lead | 赵秉清 |
 | 成员与角色 | 杨苗鑫（质量/交叉检验、人工金标准；分工见 [docs/meetings/2026-10-08.md](docs/meetings/2026-10-08.md)） |
 | 代码仓库 | https://github.com/tdj49vhhwv-wq/valuation（暂用个人仓；指南正式仓库 suibe-flab/valuation 待建/待授权，见 DEC-005） |

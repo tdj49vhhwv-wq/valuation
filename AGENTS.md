@@ -5,7 +5,7 @@
 ## 1. 项目身份与文档边界
 
 - 项目：中国企业与美国企业估值比较
-- Project ID：**待确认**（缺失时停在只读检查，向 Project Lead 询问，不得猜测）
+- Project ID：`9912c8da-9329-49d1-a20b-65a7e8c6013f`（FLAB 项目 URL 中 projects/ 后的一段）
 - Project Lead：赵秉清；成员：杨苗鑫（质量/交叉检验、人工金标准，见 meetings/2026-10-08）
 - 仓库：https://github.com/tdj49vhhwv-wq/valuation（暂用个人仓；正式 suibe-flab/valuation 待建/待授权，见 DEC-005）
 - 本文件适用于仓库根目录及 docs/、data/、src/、scripts/、tests/
