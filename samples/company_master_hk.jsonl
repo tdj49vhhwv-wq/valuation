@@ -1,1 +1,2 @@
 {"company_name": "黑芝麻智能国际控股有限公司", "stock_code": "2533", "sector": "半导体", "subsector": "芯片设计（车规SoC）", "board": "港股主板", "sector_source": "车规级自动驾驶SoC（华山A1000/武当跨域系列），港股18C特专科技上市", "notes": "行业标签工作版，待杨苗鑫交叉检验；港股估值口径见 valuation_sample_hk.jsonl 各条 notes（隐含估值=每股成本×股本）"}
+{"company_name": "地平线机器人（Horizon Robotics）", "stock_code": "9660", "sector": "半导体", "subsector": "芯片设计（车规SoC）", "board": "港股主板", "sector_source": "车规级智能驾驶SoC（征程系列ADAS/AD芯片），港股WVR架构", "notes": "行业标签工作版，待杨苗鑫交叉检验；港股估值口径见 valuation_sample_hk.jsonl 各条 notes（概约投后估值=每股成本×股本）"}
